@@ -6,5 +6,4 @@ WORKDIR /usr/src/app
 
 EXPOSE 3000
 
-# You can change this
-CMD [ "npm", "start" ]
+CMD ["sh","-c","npm install && npm run dev"]
